@@ -1,0 +1,211 @@
+2017-02-19 13:02:22,066 - realTime_hk6.py:35 - logging - first info message
+2017-02-19 13:02:22,169 - realTime_hk6.py:221 - logging - wait...min:2
+2017-02-19 13:07:22,270 - realTime_hk6.py:221 - logging - wait...min:7
+2017-02-19 13:12:22,315 - realTime_hk6.py:221 - logging - wait...min:12
+2017-02-19 13:17:22,368 - realTime_hk6.py:221 - logging - wait...min:17
+2017-02-19 13:22:22,469 - realTime_hk6.py:221 - logging - wait...min:22
+2017-02-19 13:27:22,501 - realTime_hk6.py:221 - logging - wait...min:27
+2017-02-19 13:32:22,528 - realTime_hk6.py:221 - logging - wait...min:32
+2017-02-19 13:37:22,613 - realTime_hk6.py:221 - logging - wait...min:37
+2017-02-19 13:42:22,656 - realTime_hk6.py:221 - logging - wait...min:42
+2017-02-19 13:47:22,660 - realTime_hk6.py:221 - logging - wait...min:47
+2017-02-19 13:52:22,736 - realTime_hk6.py:221 - logging - wait...min:52
+2017-02-19 14:00:00,000 - realTime_hk6.py:231 - logging - start! day 19 hour 14
+2017-02-19 14:00:58,034 - realTime_hk6.py:91 - logging - get buzz fail, retry...64177711
+2017-02-19 14:00:58,065 - realTime_hk6.py:91 - logging - get buzz fail, retry...64177711
+2017-02-19 14:00:58,067 - realTime_hk6.py:91 - logging - get buzz fail, retry...105683008
+2017-02-19 14:00:58,069 - realTime_hk6.py:91 - logging - get buzz fail, retry...64177711
+2017-02-19 14:00:58,071 - realTime_hk6.py:91 - logging - get buzz fail, retry...105683008
+2017-02-19 14:00:58,073 - realTime_hk6.py:91 - logging - get buzz fail, retry...65140111
+2017-02-19 14:00:58,075 - realTime_hk6.py:91 - logging - get buzz fail, retry...105683008
+2017-02-19 14:01:04,558 - realTime_hk6.py:124 - logging - json analysis fail?elements
+2017-02-19 14:01:04,558 - realTime_hk6.py:124 - logging - json analysis fail?elements
+2017-02-19 14:01:04,558 - realTime_hk6.py:124 - logging - json analysis fail?elements
+2017-02-19 14:01:04,558 - realTime_hk6.py:124 - logging - json analysis fail?elements
+2017-02-19 14:01:04,558 - realTime_hk6.py:124 - logging - json analysis fail?elements
+2017-02-19 14:01:04,558 - realTime_hk6.py:124 - logging - json analysis fail?elements
+2017-02-19 14:01:04,559 - realTime_hk6.py:124 - logging - json analysis fail?elements
+2017-02-19 14:01:04,559 - realTime_hk6.py:124 - logging - json analysis fail?elements
+2017-02-19 14:01:04,559 - realTime_hk6.py:124 - logging - json analysis fail?elements
+2017-02-19 14:01:43,690 - realTime_hk6.py:91 - logging - get buzz fail, retry...113873371
+2017-02-19 14:01:43,693 - realTime_hk6.py:91 - logging - get buzz fail, retry...114284544
+2017-02-19 14:01:43,695 - realTime_hk6.py:91 - logging - get buzz fail, retry...109889119
+2017-02-19 14:01:43,697 - realTime_hk6.py:91 - logging - get buzz fail, retry...114284544
+2017-02-19 14:01:43,698 - realTime_hk6.py:91 - logging - get buzz fail, retry...104842639
+2017-02-19 14:01:43,700 - realTime_hk6.py:91 - logging - get buzz fail, retry...111491144
+2017-02-19 14:01:43,707 - realTime_hk6.py:91 - logging - get buzz fail, retry...109889119
+2017-02-19 14:01:43,738 - realTime_hk6.py:91 - logging - get buzz fail, retry...95981659
+2017-02-19 14:01:43,742 - realTime_hk6.py:91 - logging - get buzz fail, retry...96479704
+2017-02-19 14:01:49,979 - realTime_hk6.py:91 - logging - get buzz fail, retry...78566560
+2017-02-19 14:01:49,982 - realTime_hk6.py:91 - logging - get buzz fail, retry...78566560
+2017-02-19 14:01:51,776 - realTime_hk6.py:91 - logging - get buzz fail, retry...113959512
+2017-02-19 14:01:51,778 - realTime_hk6.py:91 - logging - get buzz fail, retry...113959512
+2017-02-19 14:02:01,971 - realTime_hk6.py:91 - logging - get buzz fail, retry...104477141
+2017-02-19 14:02:02,978 - realTime_hk6.py:91 - logging - get buzz fail, retry...59796231
+2017-02-19 14:02:03,732 - realTime_hk6.py:91 - logging - get buzz fail, retry...109931407
+2017-02-19 14:02:04,936 - realTime_hk6.py:91 - logging - get buzz fail, retry...40437865
+2017-02-19 14:02:04,941 - realTime_hk6.py:91 - logging - get buzz fail, retry...84098651
+2017-02-19 14:02:04,943 - realTime_hk6.py:91 - logging - get buzz fail, retry...40437865
+2017-02-19 14:02:04,970 - realTime_hk6.py:91 - logging - get buzz fail, retry...84098651
+2017-02-19 14:02:04,971 - realTime_hk6.py:91 - logging - get buzz fail, retry...84098651
+2017-02-19 14:02:04,975 - realTime_hk6.py:91 - logging - get buzz fail, retry...114287120
+2017-02-19 14:02:05,964 - realTime_hk6.py:91 - logging - get buzz fail, retry...112112775
+2017-02-19 14:02:05,965 - realTime_hk6.py:91 - logging - get buzz fail, retry...79151146
+2017-02-19 14:02:05,967 - realTime_hk6.py:91 - logging - get buzz fail, retry...54080718
+2017-02-19 14:02:05,968 - realTime_hk6.py:91 - logging - get buzz fail, retry...79151146
+2017-02-19 14:02:06,968 - realTime_hk6.py:91 - logging - get buzz fail, retry...97175509
+2017-02-19 14:02:07,021 - realTime_hk6.py:91 - logging - get buzz fail, retry...56173617
+2017-02-19 14:02:19,951 - realTime_hk6.py:91 - logging - get buzz fail, retry...40099282
+2017-02-19 14:02:20,019 - realTime_hk6.py:91 - logging - get buzz fail, retry...78566560
+2017-02-19 14:02:20,022 - realTime_hk6.py:91 - logging - get buzz fail, retry...78566560
+2017-02-19 14:02:20,023 - realTime_hk6.py:91 - logging - get buzz fail, retry...40099282
+2017-02-19 14:02:23,062 - realTime_hk6.py:91 - logging - get buzz fail, retry...92330464
+2017-02-19 14:02:23,065 - realTime_hk6.py:91 - logging - get buzz fail, retry...111917212
+2017-02-19 14:02:23,078 - realTime_hk6.py:91 - logging - get buzz fail, retry...111917212
+2017-02-19 14:02:23,990 - realTime_hk6.py:91 - logging - get buzz fail, retry...40464421
+2017-02-19 14:02:29,072 - realTime_hk6.py:91 - logging - get buzz fail, retry...53505476
+2017-02-19 14:02:29,088 - realTime_hk6.py:91 - logging - get buzz fail, retry...77944967
+2017-02-19 14:02:32,095 - realTime_hk6.py:91 - logging - get buzz fail, retry...62520264
+2017-02-19 14:02:32,098 - realTime_hk6.py:91 - logging - get buzz fail, retry...62520264
+2017-02-19 14:02:32,102 - realTime_hk6.py:91 - logging - get buzz fail, retry...62520264
+2017-02-19 14:02:32,130 - realTime_hk6.py:91 - logging - get buzz fail, retry...61956521
+2017-02-19 14:02:36,031 - realTime_hk6.py:91 - logging - get buzz fail, retry...70949825
+2017-02-19 14:02:39,209 - realTime_hk6.py:91 - logging - get buzz fail, retry...112100412
+2017-02-19 14:02:39,212 - realTime_hk6.py:91 - logging - get buzz fail, retry...112348453
+2017-02-19 14:02:39,228 - realTime_hk6.py:91 - logging - get buzz fail, retry...112348453
+2017-02-19 14:02:53,409 - realTime_hk6.py:91 - logging - get buzz fail, retry...56194809
+2017-02-19 14:02:53,411 - realTime_hk6.py:91 - logging - get buzz fail, retry...56194809
+2017-02-19 14:02:53,442 - realTime_hk6.py:91 - logging - get buzz fail, retry...114294966
+2017-02-19 14:02:53,444 - realTime_hk6.py:91 - logging - get buzz fail, retry...103851282
+2017-02-19 14:02:53,446 - realTime_hk6.py:91 - logging - get buzz fail, retry...103851282
+2017-02-19 14:02:53,448 - realTime_hk6.py:91 - logging - get buzz fail, retry...100711907
+2017-02-19 14:02:53,451 - realTime_hk6.py:91 - logging - get buzz fail, retry...41957596
+2017-02-19 14:02:53,453 - realTime_hk6.py:91 - logging - get buzz fail, retry...41957596
+2017-02-19 14:02:53,455 - realTime_hk6.py:91 - logging - get buzz fail, retry...114294966
+2017-02-19 14:02:53,457 - realTime_hk6.py:91 - logging - get buzz fail, retry...103851282
+2017-02-19 14:02:53,474 - realTime_hk6.py:91 - logging - get buzz fail, retry...41957596
+2017-02-19 14:02:53,476 - realTime_hk6.py:91 - logging - get buzz fail, retry...100711907
+2017-02-19 14:02:53,488 - realTime_hk6.py:91 - logging - get buzz fail, retry...100711907
+2017-02-19 14:02:57,401 - realTime_hk6.py:91 - logging - get buzz fail, retry...46233325
+2017-02-19 14:02:57,404 - realTime_hk6.py:91 - logging - get buzz fail, retry...46233325
+2017-02-19 14:02:58,381 - realTime_hk6.py:91 - logging - get buzz fail, retry...51187165
+2017-02-19 14:02:58,404 - realTime_hk6.py:91 - logging - get buzz fail, retry...51187165
+2017-02-19 14:02:58,405 - realTime_hk6.py:91 - logging - get buzz fail, retry...51187165
+2017-02-19 14:02:59,785 - realTime_hk6.py:91 - logging - get buzz fail, retry...41436328
+2017-02-19 14:02:59,857 - realTime_hk6.py:91 - logging - get buzz fail, retry...41436328
+2017-02-19 14:02:59,858 - realTime_hk6.py:91 - logging - get buzz fail, retry...41436328
+2017-02-19 14:03:00,945 - realTime_hk6.py:91 - logging - get buzz fail, retry...38860670
+2017-02-19 14:03:00,947 - realTime_hk6.py:91 - logging - get buzz fail, retry...38860670
+2017-02-19 14:03:00,951 - realTime_hk6.py:91 - logging - get buzz fail, retry...38860670
+2017-02-19 14:03:01,762 - realTime_hk6.py:91 - logging - get buzz fail, retry...52066315
+2017-02-19 14:03:01,764 - realTime_hk6.py:91 - logging - get buzz fail, retry...52066315
+2017-02-19 14:03:01,766 - realTime_hk6.py:91 - logging - get buzz fail, retry...52066315
+2017-02-19 14:03:04,431 - realTime_hk6.py:91 - logging - get buzz fail, retry...112842897
+2017-02-19 14:03:05,312 - realTime_hk6.py:91 - logging - get buzz fail, retry...79840549
+2017-02-19 14:03:05,314 - realTime_hk6.py:91 - logging - get buzz fail, retry...79840549
+2017-02-19 14:03:05,340 - realTime_hk6.py:91 - logging - get buzz fail, retry...79840549
+2017-02-19 14:03:05,462 - realTime_hk6.py:91 - logging - get buzz fail, retry...109788059
+2017-02-19 14:03:05,513 - realTime_hk6.py:91 - logging - get buzz fail, retry...53656052
+2017-02-19 14:03:05,515 - realTime_hk6.py:91 - logging - get buzz fail, retry...53656052
+2017-02-19 14:03:05,517 - realTime_hk6.py:91 - logging - get buzz fail, retry...53656052
+2017-02-19 14:03:05,535 - realTime_hk6.py:91 - logging - get buzz fail, retry...31977341
+2017-02-19 14:03:05,538 - realTime_hk6.py:91 - logging - get buzz fail, retry...31977341
+2017-02-19 14:03:07,460 - realTime_hk6.py:91 - logging - get buzz fail, retry...95060133
+2017-02-19 14:03:07,949 - realTime_hk6.py:91 - logging - get buzz fail, retry...95060133
+2017-02-19 14:03:07,951 - realTime_hk6.py:91 - logging - get buzz fail, retry...95060133
+2017-02-19 14:03:08,429 - realTime_hk6.py:91 - logging - get buzz fail, retry...59045292
+2017-02-19 14:03:08,431 - realTime_hk6.py:91 - logging - get buzz fail, retry...59045292
+2017-02-19 14:03:08,433 - realTime_hk6.py:91 - logging - get buzz fail, retry...107440763
+2017-02-19 14:03:08,466 - realTime_hk6.py:91 - logging - get buzz fail, retry...45455361
+2017-02-19 14:03:08,468 - realTime_hk6.py:91 - logging - get buzz fail, retry...45455361
+2017-02-19 14:03:08,490 - realTime_hk6.py:91 - logging - get buzz fail, retry...45455361
+2017-02-19 14:03:08,492 - realTime_hk6.py:91 - logging - get buzz fail, retry...39073224
+2017-02-19 14:03:08,495 - realTime_hk6.py:91 - logging - get buzz fail, retry...92577946
+2017-02-19 14:03:08,497 - realTime_hk6.py:91 - logging - get buzz fail, retry...92577946
+2017-02-19 14:03:08,498 - realTime_hk6.py:91 - logging - get buzz fail, retry...39073224
+2017-02-19 14:03:08,500 - realTime_hk6.py:91 - logging - get buzz fail, retry...89472000
+2017-02-19 14:03:08,501 - realTime_hk6.py:91 - logging - get buzz fail, retry...39073224
+2017-02-19 14:03:08,503 - realTime_hk6.py:91 - logging - get buzz fail, retry...89472000
+2017-02-19 14:03:08,505 - realTime_hk6.py:91 - logging - get buzz fail, retry...89472000
+2017-02-19 14:03:12,541 - realTime_hk6.py:91 - logging - get buzz fail, retry...109384311
+2017-02-19 14:03:12,543 - realTime_hk6.py:91 - logging - get buzz fail, retry...109384311
+2017-02-19 14:03:12,615 - realTime_hk6.py:91 - logging - get buzz fail, retry...106561680
+2017-02-19 14:03:12,618 - realTime_hk6.py:91 - logging - get buzz fail, retry...71119900
+2017-02-19 14:03:12,619 - realTime_hk6.py:91 - logging - get buzz fail, retry...71119900
+2017-02-19 14:03:12,621 - realTime_hk6.py:91 - logging - get buzz fail, retry...52539118
+2017-02-19 14:03:12,623 - realTime_hk6.py:91 - logging - get buzz fail, retry...106561680
+2017-02-19 14:03:12,625 - realTime_hk6.py:91 - logging - get buzz fail, retry...71119900
+2017-02-19 14:03:12,646 - realTime_hk6.py:91 - logging - get buzz fail, retry...52539118
+2017-02-19 14:03:12,648 - realTime_hk6.py:91 - logging - get buzz fail, retry...52539118
+2017-02-19 14:03:12,650 - realTime_hk6.py:91 - logging - get buzz fail, retry...112795030
+2017-02-19 14:03:12,651 - realTime_hk6.py:91 - logging - get buzz fail, retry...112795030
+2017-02-19 14:03:24,067 - realTime_hk6.py:253 - logging - the program time is :185.809889078
+2017-02-19 14:03:24,068 - realTime_hk6.py:254 - logging - down search! day 19 hour 14
+2017-02-19 14:03:36,226 - realTime_hk6.py:279 - logging - down! day 19 hour 14
+2017-02-19 14:03:36,227 - realTime_hk6.py:221 - logging - wait...min:3
+2017-02-19 14:08:36,314 - realTime_hk6.py:221 - logging - wait...min:8
+2017-02-19 14:13:36,415 - realTime_hk6.py:221 - logging - wait...min:13
+2017-02-19 14:18:36,444 - realTime_hk6.py:221 - logging - wait...min:18
+2017-02-19 14:23:36,528 - realTime_hk6.py:221 - logging - wait...min:23
+2017-02-19 14:28:36,628 - realTime_hk6.py:221 - logging - wait...min:28
+2017-02-19 14:33:36,729 - realTime_hk6.py:221 - logging - wait...min:33
+2017-02-19 14:38:36,821 - realTime_hk6.py:221 - logging - wait...min:38
+2017-02-19 14:43:36,922 - realTime_hk6.py:221 - logging - wait...min:43
+2017-02-19 14:48:37,007 - realTime_hk6.py:221 - logging - wait...min:48
+2017-02-19 14:53:37,089 - realTime_hk6.py:221 - logging - wait...min:53
+2017-02-19 15:00:00,007 - realTime_hk6.py:231 - logging - start! day 19 hour 15
+2017-02-19 15:01:39,691 - realTime_hk6.py:253 - logging - the program time is :81.4627239704
+2017-02-19 15:01:39,691 - realTime_hk6.py:254 - logging - down search! day 19 hour 15
+2017-02-19 15:01:51,831 - realTime_hk6.py:279 - logging - down! day 19 hour 15
+2017-02-19 15:01:51,832 - realTime_hk6.py:221 - logging - wait...min:1
+2017-02-19 15:06:51,858 - realTime_hk6.py:221 - logging - wait...min:6
+2017-02-19 15:11:51,935 - realTime_hk6.py:221 - logging - wait...min:11
+2017-02-19 15:16:52,010 - realTime_hk6.py:221 - logging - wait...min:16
+2017-02-19 15:21:52,087 - realTime_hk6.py:221 - logging - wait...min:21
+2017-02-19 15:26:52,172 - realTime_hk6.py:221 - logging - wait...min:26
+2017-02-19 15:31:52,256 - realTime_hk6.py:221 - logging - wait...min:31
+2017-02-19 15:36:52,342 - realTime_hk6.py:221 - logging - wait...min:36
+2017-02-19 15:41:52,427 - realTime_hk6.py:221 - logging - wait...min:41
+2017-02-19 15:46:52,527 - realTime_hk6.py:221 - logging - wait...min:46
+2017-02-19 15:51:52,590 - realTime_hk6.py:221 - logging - wait...min:51
+2017-02-19 16:00:00,007 - realTime_hk6.py:231 - logging - start! day 19 hour 16
+2017-02-19 16:01:04,520 - realTime_hk6.py:124 - logging - json analysis fail?elements
+2017-02-19 16:01:04,520 - realTime_hk6.py:124 - logging - json analysis fail?elements
+2017-02-19 16:01:04,521 - realTime_hk6.py:124 - logging - json analysis fail?elements
+2017-02-19 16:01:04,521 - realTime_hk6.py:124 - logging - json analysis fail?elements
+2017-02-19 16:01:04,521 - realTime_hk6.py:124 - logging - json analysis fail?elements
+2017-02-19 16:01:04,521 - realTime_hk6.py:124 - logging - json analysis fail?elements
+2017-02-19 16:01:04,530 - realTime_hk6.py:124 - logging - json analysis fail?elements
+2017-02-19 16:01:04,530 - realTime_hk6.py:124 - logging - json analysis fail?elements
+2017-02-19 16:01:04,530 - realTime_hk6.py:124 - logging - json analysis fail?elements
+2017-02-19 16:01:04,615 - realTime_hk6.py:124 - logging - json analysis fail?elements
+2017-02-19 16:01:04,615 - realTime_hk6.py:124 - logging - json analysis fail?elements
+2017-02-19 16:01:04,615 - realTime_hk6.py:124 - logging - json analysis fail?elements
+2017-02-19 16:01:04,615 - realTime_hk6.py:124 - logging - json analysis fail?elements
+2017-02-19 16:01:04,615 - realTime_hk6.py:124 - logging - json analysis fail?elements
+2017-02-19 16:01:04,615 - realTime_hk6.py:124 - logging - json analysis fail?elements
+2017-02-19 16:01:04,616 - realTime_hk6.py:124 - logging - json analysis fail?elements
+2017-02-19 16:01:04,616 - realTime_hk6.py:124 - logging - json analysis fail?elements
+2017-02-19 16:01:04,616 - realTime_hk6.py:124 - logging - json analysis fail?elements
+2017-02-19 16:01:32,881 - realTime_hk6.py:91 - logging - get buzz fail, retry...45198218
+2017-02-19 16:01:32,883 - realTime_hk6.py:91 - logging - get buzz fail, retry...103157650
+2017-02-19 16:01:32,904 - realTime_hk6.py:91 - logging - get buzz fail, retry...103157650
+2017-02-19 16:01:32,907 - realTime_hk6.py:91 - logging - get buzz fail, retry...111874900
+2017-02-19 16:01:40,067 - realTime_hk6.py:91 - logging - get buzz fail, retry...52353702
+2017-02-19 16:01:40,071 - realTime_hk6.py:91 - logging - get buzz fail, retry...61523478
+2017-02-19 16:01:40,081 - realTime_hk6.py:91 - logging - get buzz fail, retry...52353702
+2017-02-19 16:01:42,913 - realTime_hk6.py:91 - logging - get buzz fail, retry...75907939
+2017-02-19 16:01:48,066 - realTime_hk6.py:91 - logging - get buzz fail, retry...84023546
+2017-02-19 16:01:48,067 - realTime_hk6.py:91 - logging - get buzz fail, retry...84023546
+2017-02-19 16:01:48,069 - realTime_hk6.py:91 - logging - get buzz fail, retry...107189651
+2017-02-19 16:01:48,071 - realTime_hk6.py:91 - logging - get buzz fail, retry...107189651
+2017-02-19 16:01:49,095 - realTime_hk6.py:91 - logging - get buzz fail, retry...112781665
+2017-02-19 16:01:49,097 - realTime_hk6.py:91 - logging - get buzz fail, retry...112781665
+2017-02-19 16:01:53,184 - realTime_hk6.py:91 - logging - get buzz fail, retry...68411669
+2017-02-19 16:03:03,998 - realTime_hk6.py:91 - logging - get buzz fail, retry...79840549
+2017-02-19 16:03:15,808 - realTime_hk6.py:91 - logging - get buzz fail, retry...114311664
+2017-02-19 16:03:19,045 - realTime_hk6.py:253 - logging - the program time is :180.825069904
+2017-02-19 16:03:19,046 - realTime_hk6.py:254 - logging - down search! day 19 hour 16
+2017-02-19 16:03:30,353 - realTime_hk6.py:279 - logging - down! day 19 hour 16
+2017-02-19 16:03:30,354 - realTime_hk6.py:221 - logging - wait...min:3
+2017-02-19 16:08:30,454 - realTime_hk6.py:221 - logging - wait...min:8

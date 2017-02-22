@@ -1,0 +1,24 @@
+2017-02-19 17:04:48,573 - realTime_hk10.py:35 - logging - first info message
+2017-02-19 17:04:48,669 - realTime_hk10.py:220 - logging - wait...min:4
+2017-02-19 17:09:48,748 - realTime_hk10.py:220 - logging - wait...min:9
+2017-02-19 17:14:48,828 - realTime_hk10.py:220 - logging - wait...min:14
+2017-02-19 17:19:48,898 - realTime_hk10.py:220 - logging - wait...min:19
+2017-02-19 17:24:48,980 - realTime_hk10.py:220 - logging - wait...min:24
+2017-02-19 17:29:49,070 - realTime_hk10.py:220 - logging - wait...min:29
+2017-02-19 17:34:49,155 - realTime_hk10.py:220 - logging - wait...min:34
+2017-02-19 17:39:49,245 - realTime_hk10.py:220 - logging - wait...min:39
+2017-02-19 17:44:49,337 - realTime_hk10.py:220 - logging - wait...min:44
+2017-02-19 17:49:49,432 - realTime_hk10.py:220 - logging - wait...min:49
+2017-02-19 17:54:49,515 - realTime_hk10.py:220 - logging - wait...min:54
+2017-02-19 18:00:00,000 - realTime_hk10.py:230 - logging - start! day 19 hour 18
+2017-02-19 18:01:20,246 - realTime_hk10.py:252 - logging - the program time is :61.8132970333
+2017-02-19 18:01:20,247 - realTime_hk10.py:253 - logging - down search! day 19 hour 18
+2017-02-19 18:01:31,658 - realTime_hk10.py:278 - logging - down! day 19 hour 18
+2017-02-19 18:01:31,658 - realTime_hk10.py:220 - logging - wait...min:1
+2017-02-19 18:06:31,708 - realTime_hk10.py:220 - logging - wait...min:6
+2017-02-19 18:11:31,793 - realTime_hk10.py:220 - logging - wait...min:11
+2017-02-19 18:16:31,870 - realTime_hk10.py:220 - logging - wait...min:16
+2017-02-19 18:21:31,954 - realTime_hk10.py:220 - logging - wait...min:21
+2017-02-19 18:26:32,040 - realTime_hk10.py:220 - logging - wait...min:26
+2017-02-19 18:31:32,121 - realTime_hk10.py:220 - logging - wait...min:31
+2017-02-19 18:36:32,214 - realTime_hk10.py:220 - logging - wait...min:36
