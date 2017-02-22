@@ -80,16 +80,21 @@ def getUserBuzz(s,sessionId,userId,xh):
                'api_version': '52',
                 'Connection': 'close'
                }
-    res = None
     gett = False
+    buzzCnt = 0
+
     for i in range(1,10):
         try:
             res = requests.get(url, headers=headers, timeout=30.0)
+            content = res.json()
+            buzzList = content['elements']
+            buzzCnt = buzzCnt + len(buzzList)
             gett = True
             break
-        except:
-            logger.info("get buzz fail, retry..."+str(userId))
+        except Exception as e:
+            logger.info("get buzz fail or json analysis fail, retry..."+str(userId)+e.message)
             continue
+
     current_time = time.localtime(time.time())
     if gett == False:
 
@@ -107,39 +112,6 @@ def getUserBuzz(s,sessionId,userId,xh):
             saveString = (
                 'INSERT INTO realtime_distance_hk3(user_id,ifnobuzz,iferror,distance_km,distance_mi,city,country,traveling,time_day,time_hour,state) VALUES(\'%s\',%d,%d,%f,%f,\'%s\',\'%s\',%d,%d,%d,\'%s\')' % (
                     userId, 0, 1, -1, -1, "", "", 0,current_time.tm_mday, current_time.tm_hour,""))
-            saveString_hk3.append(saveString)
-        return userId
-
-    ff = False
-    buzzCnt = 0
-    for i in range(1,10):
-        try:
-            content = res.json()
-            buzzList = content['elements']
-            buzzCnt = buzzCnt + len(buzzList)
-            ff = True
-            break
-        except Exception as e:
-            logger.info('json analysis fail?'+e.message)
-
-    #如果从来没有发过日志
-    ifnobuzz = 0
-    saveString = ""
-    if ff == False:
-        if xh == 1:
-            saveString = (
-                'INSERT INTO realtime_distance_hk1(user_id,ifnobuzz,iferror,distance_km,distance_mi,city,country,traveling,time_day,time_hour,state) VALUES(\'%s\',%d,%d,%f,%f,\'%s\',\'%s\',%d,%d,%d,\'%s\')' % (
-                    userId, ifnobuzz, 1, -1, -1, "", "", 0,current_time.tm_mday, current_time.tm_hour,""))
-            saveString_hk1.append(saveString)
-        elif xh == 2:
-            saveString = (
-                'INSERT INTO realtime_distance_hk2(user_id,ifnobuzz,iferror,distance_km,distance_mi,city,country,traveling,time_day,time_hour,state) VALUES(\'%s\',%d,%d,%f,%f,\'%s\',\'%s\',%d,%d,%d,\'%s\')' % (
-                    userId, ifnobuzz, 1, -1, -1, "", "", 0,current_time.tm_mday, current_time.tm_hour,""))
-            saveString_hk2.append(saveString)
-        elif xh == 3:
-            saveString = (
-                'INSERT INTO realtime_distance_hk3(user_id,ifnobuzz,iferror,distance_km,distance_mi,city,country,traveling,time_day,time_hour,state) VALUES(\'%s\',%d,%d,%f,%f,\'%s\',\'%s\',%d,%d,%d,\'%s\')' % (
-                    userId, ifnobuzz, 1, -1, -1, "", "",0,current_time.tm_mday, current_time.tm_hour,""))
             saveString_hk3.append(saveString)
         return userId
 
@@ -236,7 +208,7 @@ if __name__ == '__main__':
             t_start = time.time()
             pool = Pool(processes=240)  # 设置进程数量
 
-            for i in range(0, 5000):
+            for i in range(0, 2500):
                 pool.apply_async(func=getUserBuzz, args=(s, SESSIONID_hk[0], userIDList[i]['user_id'], 1,),
                                  callback=Bar)  # 维持执行的进程总数为processes，当一个进程执行完毕后会添加新的进程进去
                 pool.apply_async(func=getUserBuzz, args=(s, SESSIONID_hk[1], userIDList[i]['user_id'], 2,),
@@ -249,7 +221,27 @@ if __name__ == '__main__':
 
             t_end = time.time()
             t = t_end - t_start
-            logger.info('the program time is :%s' % t)
+            logger.info('the program time1 is :%s' % t)
+
+            time.sleep(60)
+            logger.info('sleep....')
+
+            t_start = time.time()
+            pool = Pool(processes=240)  # 设置进程数量
+            for i in range(2500, 5000):
+                pool.apply_async(func=getUserBuzz, args=(s, SESSIONID_hk[0], userIDList[i]['user_id'], 1,),
+                                 callback=Bar)  # 维持执行的进程总数为processes，当一个进程执行完毕后会添加新的进程进去
+                pool.apply_async(func=getUserBuzz, args=(s, SESSIONID_hk[1], userIDList[i]['user_id'], 2,),
+                                 callback=Bar)
+                pool.apply_async(func=getUserBuzz, args=(s, SESSIONID_hk[2], userIDList[i]['user_id'], 3,),
+                                 callback=Bar)
+            pool.close()
+            pool.join()  # 关闭之后要计入它，作用：防止主程序在子进程结束前关闭
+
+            t_end = time.time()
+            t = t_end - t_start
+            logger.info('the program time2 is :%s' % t)
+
             logger.info('down search! day %d hour %d' % (current_time.tm_mday, current_time.tm_hour))
             print 'the program time is :%s' % t
 
